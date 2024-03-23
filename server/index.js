@@ -17,6 +17,7 @@ app.use(function (request, response, next) {
     next();
   });
 app.use(express.json())
+
 app.use('/api/message', messageRoute)
 app.use('/api/auth',userRoutes)
 
