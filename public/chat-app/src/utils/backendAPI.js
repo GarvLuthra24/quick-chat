@@ -1,6 +1,6 @@
-const host = "http://127.0.0.1:5000"
+// const host = "http://127.0.0.1:5000"
 
-// const host = "https://quick-mern-chat-app-teaq.vercel.app"
+const host = "https://quick-chat-server-six.vercel.app"
 
  module.exports.host = host;
 
