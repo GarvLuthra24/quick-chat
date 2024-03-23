@@ -67,7 +67,7 @@ const Register = () => {
                 userName: userName,
                 email: email,
                 password: password
-            }
+            },{withCredentials:false}
             )
 
             console.log(data)

@@ -57,7 +57,7 @@ const ChatPage = () => {
     async function avatarImageSet(){
       if(user){
           
-          const data= (await axios.post(getContactsRoute, {id:user._id})).data
+          const data= (await axios.post(getContactsRoute, {id:user._id}, {withCredentials:false})).data
           
           console.log(data)
           setContacts(data)

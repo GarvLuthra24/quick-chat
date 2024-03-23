@@ -29,7 +29,7 @@ const ChatBox = ({currentChat , currentUser, socket}) => {
     })
     const response = await axios.post(sendMessageRoute , {
       from:currUser , to: currentChat, message: message
-    })
+    },{withCredentials:false})
 
 
 
@@ -68,7 +68,7 @@ const ChatBox = ({currentChat , currentUser, socket}) => {
       if(currentChat){
       const response = await axios.post(getAllMessagesRoute , {
         from: currentUser._id , to: currentChat._id
-      })
+      },{withCredentials:false})
 
       setMessages(response.data)
       console.log(response.data)

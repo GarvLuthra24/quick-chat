@@ -54,7 +54,7 @@ const Login = () => {
             const {data} = await axios.post(loginRoute,{
                 userName: userName,
                 password: password
-            }
+            },{withCredentials:false}
             )
             // alert('hi')
             // console.log(data)
