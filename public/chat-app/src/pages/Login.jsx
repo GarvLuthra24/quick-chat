@@ -91,7 +91,7 @@ const Login = () => {
       <div>
         <form className='FormStyle' onSubmit={(event) => {handleSubmit(event)}}>
         <div className='Logo'>
-            <img className='LogoImage' src = "{Logo}" alt = ""></img>
+            <img className='LogoImage' src = {Logo} alt = ""></img>
             <h1>Quick!</h1>
         </div>
      
