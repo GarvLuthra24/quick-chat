@@ -4,6 +4,7 @@ const mongoose = require('mongoose')
 const userRoutes = require('../server/routes/userRoutes')
 const messageRoute = require('../server/routes/messageRoutes')
 const socket = require('socket.io')
+const bodyparser = require('body-parser')
 
 // making an app using the express function
 const app = express()
@@ -20,7 +21,8 @@ app.use(express.json())
 
 app.use('/api/message', messageRoute)
 app.use('/api/auth',userRoutes)
-
+app.use(bodyparser.urlencoded({extended:true}))
+app.use(bodyparser.json())
 
 // console.log('hi')
 
