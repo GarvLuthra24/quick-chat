@@ -139,6 +139,7 @@ const Container = styled.div`
         align-items:center;
         justify-content: center;
         margin-left: 0.5rem;
+        width:5%;
         
         svg{
             height: 3rem;
@@ -164,6 +165,7 @@ const Container = styled.div`
         margin-right:0.5rem;
         background-color: transparent;
         gap:0.5rem;
+
         
         .messageBox{
           width: 100%;
@@ -177,7 +179,7 @@ const Container = styled.div`
           }
         }
         button{
-            width:5%;
+            width:10%;
             height: 2.5rem;
             border-radius: 1rem;
             border: 1px solid transparent;
