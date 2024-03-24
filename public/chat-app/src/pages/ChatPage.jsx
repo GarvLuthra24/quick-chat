@@ -24,11 +24,12 @@ const Container = styled.div`
     color:white;
   }
   .container{
-    height:85vh;
-    width:85vw;
+    height:80%;
+    width:85%;
     background-color:#00000086;
     display:grid;
-    grid-template-columns: 25% 75%
+    grid-template-columns: 25% 75%;
+    overflow: auto;
     
   }
 `;

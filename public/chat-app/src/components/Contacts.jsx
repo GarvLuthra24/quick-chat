@@ -102,8 +102,8 @@ const Container = styled.div`
     overflow:auto;
     gap: 1rem;
     background-color:#09031c;
-    height:70vh;
-    max-height:70vh;
+    
+    max-height:100%;
     transition: 0.5 sec ease-in-out;
     
     .contactElement{

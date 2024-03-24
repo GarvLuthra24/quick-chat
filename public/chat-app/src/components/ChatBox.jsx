@@ -149,12 +149,15 @@ const ChatBox = ({currentChat , currentUser, socket}) => {
 
 const Container = styled.div`
 
-margin: 1rem;
+
 display: grid;
 grid-template-rows: 10% 78% 12%;
 
 
-
+.header{
+  height: 2rem;
+  max-height:2rem;
+}
 
 .user-details{
   display: flex;
@@ -168,7 +171,7 @@ grid-template-rows: 10% 78% 12%;
   
   background-color:#ffffff39;
   img{
-    height: 4rem;
+    height: 3rem;
     margin: 0.5rem;
     margin-right: 1.5rem;
   }

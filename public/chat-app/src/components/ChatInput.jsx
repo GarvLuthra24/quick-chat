@@ -100,10 +100,11 @@ const Container = styled.div`
     background-color: #404046;
     border: 1px solid transparent;
     border-radius: 0.5rem;
-    margin: 1.5rem 0rem;
-    margin-top:0.5rem;
+    height: 3rem;
+    max-hegiht: 3rem;
+
    
-    overflow:auto;
+    overflow:hidden;
 
     .section::-webkit-scrollbar {
         width: 16px;
