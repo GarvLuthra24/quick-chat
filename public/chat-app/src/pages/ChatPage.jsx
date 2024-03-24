@@ -20,6 +20,14 @@ const Container = styled.div`
   gap: 1rem;
   align-items: center;
   background-color: #131324;
+  &::-webkit-scrollbar{
+    width:0.2rem;
+    &-thumb{
+      background-color: #ffffff39;
+      width: 0.1rem;
+      border-radius: 1rem;
+    }
+  }
   h1{
     color:white;
   }

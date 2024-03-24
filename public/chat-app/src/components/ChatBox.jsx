@@ -136,10 +136,6 @@ const ChatBox = ({currentChat , currentUser, socket}) => {
 
         </div>
 
-
-  
-      
-      
       </Container>  
 
 
