@@ -123,8 +123,8 @@ const Container = styled.div`
     .emojiMenu{
         
         position: absolute;
-        left: 30vw;
-        bottom: 16vh;
+        left: 27vw;
+        bottom: 12vh;
         
         background-color: #080420;
         box-shadow: 0 5px 10px #9a86f3;
