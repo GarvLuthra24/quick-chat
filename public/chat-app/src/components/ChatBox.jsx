@@ -186,7 +186,7 @@ h1{
   display: flex;
   flex-direction: column;
   overflow:auto;
-  height:67vh;
+  height: 81vh;
   &::-webkit-scrollbar{
     width:0.2rem;
     &-thumb{

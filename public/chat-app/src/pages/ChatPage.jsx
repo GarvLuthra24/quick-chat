@@ -32,12 +32,12 @@ const Container = styled.div`
     color:white;
   }
   .container{
-    height:80%;
-    width:85%;
+    height:95%;
+    width:95%;
     background-color:#00000086;
     display:grid;
     grid-template-columns: 25% 75%;
-    overflow: auto;
+  
     
   }
 `;

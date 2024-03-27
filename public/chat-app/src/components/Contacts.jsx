@@ -103,7 +103,9 @@ const Container = styled.div`
     gap: 1rem;
     background-color:#09031c;
     
-    max-height:100%;
+    height:80vh;
+    border: 1px solid transparent;
+    border-radius: 1rem;
     transition: 0.5 sec ease-in-out;
     
     .contactElement{
@@ -112,6 +114,7 @@ const Container = styled.div`
         height: 5rem;
         display: flex;
         flex-direction: row;
+        overflow:hidden;
         align-items: center;
         justify-content: flex-start;
         gap:1rem;
@@ -175,8 +178,10 @@ const Container2 = styled.div`
         height: 5rem;
         display: flex;
         flex-direction: row;
+        overflow:hidden;
+        flex-wrap:wrap;
         align-items: center;
-        justify-content: flex-start;
+        justify-content: center;
         gap:1rem;
         border: 0.5rem solid transparent;
         border-radius: 0.5rem;
